@@ -100,6 +100,7 @@ body{
 
 .content{
     padding: 20px;
+    border-bottom: 3px solid #333;
 }
 
 .content h2{
@@ -137,4 +138,34 @@ body{
     font-size: 12px;
     padding: 10px;
 }
+
+.kontak{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #333;
+}
+
+.kontak h2{
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kontak form{
+    margin-top: 5px;
+    position: relative;
+    left: 200px;
+    top: 50%;
+}
+
+.kontak .nama input, .email input{
+    width: 400px;
+}
+
+.kontak form .button botton{
+    background-color: blue;
+
+}
+
 
